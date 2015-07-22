@@ -1,0 +1,63 @@
+#!/usr/bin/perl
+use 5.010;
+use strict;
+use warnings;
+use autodie qw(:all);
+use File::Spec;
+use File::Slurp qw(slurp);
+use Getopt::Std;
+use File::Temp qw(tempfile); 
+
+my $INCLUDE_DIR = "topics";
+
+# Basic pin pre-processor.
+# Paul '@pjf' Fenwick, October 2014.
+# License: Same as Perl, or CC-BY, you choose.
+
+# -o let's one set an output file (PDF)
+my %opts = ( 'o' => '' );
+getopts("o:",\%opts);
+
+my ($file) = @ARGV;
+
+$file or die "Usage: $0 file.pinpp";
+
+# Okay code, you have just one job:
+# @include <foo.pin> -> includes $INCLUDE_DIR/foo.pin
+# NB: Everything after the @include on a line will be removed.
+
+my $content = slurp($file);
+
+# Remove // comments
+
+$content =~ s{^//[^\n]*\n}{}gsm;
+
+# Process includes
+
+$content =~ s{^\@include\s+<([^>]+)>[^\n]*\n}{include($1)}gmse;
+
+# Remove blank slides
+
+$content =~ s{^--\n--}{--}gsm;
+
+if (my $outputfile = $opts{o}) {
+
+    # Iff we're producing a PDF, then remove speaker comments
+    $content =~ s{^#[^\n]*\n}{}gsm;
+
+    my ($tmp_fh, $tmp_filename) = tempfile( DIR => '.' );
+
+    say {$tmp_fh} $content;
+    close($tmp_fh);
+
+    system("pinpoint", "--output=$opts{o}", $tmp_filename);
+}
+else {
+    # Otherwise just display our text
+    say $content;
+}
+
+sub include {
+    my ($include) = @_;
+    return slurp(File::Spec->catdir($INCLUDE_DIR, $include))."--\n";
+}

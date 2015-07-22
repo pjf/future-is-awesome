@@ -1,31 +1,31 @@
 The Future is Awesome
-(and what you can do about it)
+<span font="100px">
+(and what you can do about it)</span>
 
-Text and slides: CC-BY
+<span font="150">Paul '@pjf' Fenwick</span>
 
-Paul '@pjf' Fenwick
-pjf.id.au
---
-(Spy movies)
---
-(Gadgets)
---
-(Spy car)
---
-(Homing missiles)
---
-(Hubcap laser)
+<span font="50px">Presentation and slides CC-BY Paul Fenwick</span>
 
-# http://www.infipark.com/content/315-10-Awesome-Gadgets-from-James-Bond
---
-(Convert into submarine)
+# Oh hey, you're reading the source. Magic numbers as font
+# sizes suck. Sorry if you're not using 1920x1080; patches totally
+# welcome! <3
 
-# Lotus Esprit
---
-Totally
-realistic
---
-(Car knows where it is)
+-- [images/bond007.jpg]
+
+# I grew up watching spy
+# movies
+-- [images/cigarette-rocket.jpg]
+
+# Cigarette rocket launcher
+-- [images/shoe-phone.jpg]
+
+-- [images/bond-submarine.jpg]
+
+-- [images/watch-label.jpg]
+
+# Watch that doubled
+# as a label-maker
+-- [images/bond-gps.jpg]
 
 # Car knows where it is
 # NO WAY that would ever work

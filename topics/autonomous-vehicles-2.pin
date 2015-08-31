@@ -9,12 +9,8 @@ question
 --
 "Nobody should die"
 
-# Vehicles are inheritantly unsafe
-
-# You can't say nobody should die
-# You end up with cars that drive
-# at walking pace, and stop if a
-# human gets too close.
+# Vehicles are inheritently dangerous.
+# Nobody should die = 5km/hr
 --
 8 million
 
@@ -22,25 +18,22 @@ question
 # The rate of injuries is much much higher
 # Cite: Turck, self-driving car
 --
-# Evidence they may *already* be
-# at least this safe.
---
-But people will still die.
---
 40,000 fatalities
 each year (USA)
-
-# And autonomous vehicles
-# may reduce that to almost zero
 --
-Autonomous car that's
+Autonomous cars
 twice as safe?
 --
 Killing 50 people
-each day
+<i>each day</i>
+--
+Virtually no
+deaths...
 --
 Software bug
 kills 2,000 people
+
+# Only 5% of previous rate
 --
 Concentration of
 liability
@@ -51,37 +44,44 @@ liability
 # SIGNIFICANTLY better
 --
 Legislative
-change
+change?
 
-# I'm not clear what that would
-# look like, and it may hamper
-# adoption.
+# Manufacturers not responsible?
+# May hamper adoption by consumers
+--
+Insurance
+change?
 --
 Corporate
 Ownership
---
-Robot Uber
+
+-- [images/johnny-cab.jpg]
+
+# Robot Uber
+# Johnny Cab
 
 # The biggest taxi cost is the driver
-# Uber has expressed an interest in 500k cars
-# from Tesla
---
-# Quote from Tesla motors
---
-Cheaper <i>not<i>
-to own a car
+-- [images/can-haz-cars-tesla.png]
 
-# Or to own a car, but to
-# robo-uberise it rather than
-# *park* it. That means it
-# makes you money while not
-# in use
+# http://gas2.org/2015/07/15/uber-ceo-i-can-haz-500000-self-driving-teslas-plz/
+# 
+--
+(Cars in car-parks)
+--
+(Rent your car to robo-uber)
+--
+230 thousand
+taxi drivers
+
+# https://en.wikipedia.org/wiki/Taxicabs_of_the_United_States
+--
+3.5 MILLION
+truck drivers
+
+# http://www.alltrucking.com/faq/truck-drivers-in-the-usa/
 --
 Technological
 unemployment
-
-# Truck drivers, taxi drivers,
-# anyone who drives for a living
 --
 History
 
@@ -93,53 +93,32 @@ But we still
 have tailors
 
 # But they're more productive now
+--
+(Plumbing)
+
 -- [images/water-carrier-public-domain.JPG]
 
 # With the invention of plumbing, we no
 # longer have water carriers
---
+-- [images/shell-script-t-shirt.jpg]
 
-# General move towards creativity
+# Tech unemployment for skilled roles
 --
+(Creative)
+
+# More highly-skilled / creative jobs
+--
+(Education)
+
 # Education is essential.
 # Access to education and training
 # helps everyone
 --
+(Humans don't have to work)
+
 # 10,000 years in the future
 # Maybe humans shouldn't *have*
 # to work?
 #
 # Basic income means you don't
 # *have* to work.
---
-Tunable
-parameter
-
-# Refreshing in a way, because we can't wiggle out of this
-# the same way we do with human ethics.
-#
-# At the same time, while we still have human drivers, I
-# think we'll be limited to human driving speeds.
---
-(Autonomous vehicles
-are good for humanity)
-
-# Probably
---
-# How could they be less good?
---
-"Cheating"
-cars
-
-# Do you want to own a car you know might
-# make the decision to kill you? A car that
-# acts in the interests of its owner results
-# in *less* good overall.
---
-# Prisoner's dilemma
-#
-# Two cars about to collide. One can sacrifice itself,
-# but if *both* are cheating they end up both taking
-# damage.
---
-

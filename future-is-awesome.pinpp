@@ -10,5 +10,7 @@
 @include <future-arrival.pin>
 @include <weird-trick.pin>
 @include <autonomous-vehicles.pin>
+@include <autonomous-vehicles-2.pin>
+@include <watson.pin>
 @include <conclusion.pin>
 --

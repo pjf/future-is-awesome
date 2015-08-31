@@ -32,9 +32,12 @@ my $content = slurp($file);
 
 $content =~ s{^//[^\n]*\n}{}gsm;
 
-# Process includes
+# Process includes.
+# This is in a while loop so we'll keep processing until all
+# sub-includes are done. (This will infiniloop if we have an
+# include loop)
 
-$content =~ s{^\@include\s+<([^>]+)>[^\n]*\n}{include($1)}gmse;
+while ($content =~ s{^\@include\s+<([^>]+)>[^\n]*\n}{include($1)}gmse) {};
 
 # Remove blank slides
 

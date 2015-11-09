@@ -1,13 +1,13 @@
--- [images/drone.jpg]
+-- [images/drone.jpg][bottom-right][font=25px][text-color=white]
 
-# CC-BY Don McCullough
+CC-BY Don McCullough
 # https://www.flickr.com/photos/69214385@N04/8725078749
 --
 Potential
 for good
--- [images/drone-delivery.jpg]
+-- [images/drone-delivery.jpg][bottom-right][font=25px][text-color=white]
 
-# CC-BY Frankhöffner
+CC-BY Frankhöffner
 # https://en.wikipedia.org/wiki/File:Package_copter_microdrones_dhl.jpg
 --
 Diaster
@@ -31,8 +31,8 @@ Jamming
 
 # Susceptible to jamming
 --
-Lethal Autonomous Robots
-(LARs)
+Lethal Autonomous
+Robots (LARs)
 --
 Can't be
 jammed

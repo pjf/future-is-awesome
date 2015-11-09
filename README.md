@@ -13,3 +13,7 @@ To build:
 1. `make` will build the slide deck
 2. `./future-is-awesome.pin` will start the presentation.
 
+## Support me giving free talks
+
+If you'd like to support me giving more free talks like this one,
+you can **[support me on patreon](https://patreon.com/_pjf)**.

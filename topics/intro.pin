@@ -1,14 +1,10 @@
--- [images/TitleSlide.png]
+The Future is Awesome
+<span font="100px">
+(and what you can do about it)</span>
 
-# Non dev-world intro:
+<span font="150">Paul '@pjf' Fenwick</span>
 
-# The Future is Awesome
-# <span font="100px">
-# (and what you can do about it)</span>
-
-# <span font="150">Paul '@pjf' Fenwick</span>
-
-# <span font="50px">Presentation and slides CC-BY Paul Fenwick</span>
+<span font="50px">Presentation and slides CC-BY Paul Fenwick</span>
 
 # Oh hey, you're reading the source. Magic numbers as font
 # sizes suck. Sorry if you're not using 1920x1080; patches totally

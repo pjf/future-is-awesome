@@ -11,8 +11,8 @@
 @include <weird-trick.pin>
 @include <autonomous-vehicles.pin>
 @include <autonomous-vehicles-2.pin>
-@include <drones.pin>
+// @include <drones.pin>
 @include <watson.pin>
 @include <conclusion.pin>
-# @include <loldrones.pin>
+// @include <loldrones.pin>
 --

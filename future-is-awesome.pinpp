@@ -6,14 +6,16 @@
 [text-align=center]
 
 --
-// @include <intro.pin>
-// @include <future-arrival.pin>
-// @include <weird-trick.pin>
-// @include <autonomous-vehicles.pin>
-// @include <autonomous-vehicles-2.pin>
-@include <tech-unemployment.pin>
-// @include <drones.pin>
-// @include <watson.pin>
-// @include <conclusion.pin>
+@include <intro.pin>
+@include <future-arrival.pin>
+@include <weird-trick.pin>
+@include <autonomous-vehicles.pin>
+@include <autonomous-vehicles-2.pin>
+@include <drones.pin>
+@include <watson.pin>
+@include <conclusion.pin>
 // @include <loldrones.pin>
 --
+
+// This is a separate talk.
+// @include <tech-unemployment.pin>

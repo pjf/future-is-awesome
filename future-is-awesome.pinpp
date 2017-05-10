@@ -4,16 +4,20 @@
 [white][text-color=black]
 [shading-opacity=0.0]
 [text-align=center]
-[duration=45]
+[duration=35]
 
 --
-@include <intro.pin>
-@include <future-arrival.pin>
-@include <weird-trick.pin>
+// @include <intro.pin>
+// @include <future-arrival.pin>
+// @include <weird-trick.pin>
+@include <intro-vehicles.pin>
 @include <autonomous-vehicles.pin>
 @include <autonomous-vehicles-2.pin>
-@include <drones.pin>
-@include <watson.pin>
+@include <autonomy-levels.pin>
+@include <jeep-hack.pin>
+@include <autonomous-vehicles-3.pin>
+// @include <drones.pin>
+// @include <watson.pin>
 @include <conclusion.pin>
 // @include <loldrones.pin>
 --
